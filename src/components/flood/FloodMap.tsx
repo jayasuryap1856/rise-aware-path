@@ -14,7 +14,7 @@ export function FloodMap() {
       <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-4 py-3 bg-gradient-to-b from-card/80 to-transparent">
         <div>
           <div className="text-[10px] uppercase tracking-widest text-muted-foreground">Live tactical map</div>
-          <div className="font-display text-sm font-semibold">Cedar Valley · 5 km radius</div>
+          <div className="font-display text-sm font-semibold">Mumbai Metropolitan · 5 km radius</div>
         </div>
         <div className="flex items-center gap-1 text-[10px]">
           <span className="inline-flex h-1.5 w-1.5 rounded-full bg-safe animate-pulse" />
@@ -99,10 +99,10 @@ export function FloodMap() {
         <Marker x={680} y={235} color="oklch(0.72 0.16 155)" label="S4" />
 
         {/* Safe zones */}
-        <SafeMarker x={220} y={150} label="Highland" />
-        <SafeMarker x={620} y={130} label="St. Mary's" />
-        <SafeMarker x={660} y={360} label="Westbrook" />
-        <SafeMarker x={120} y={90} label="N. Hills" />
+        <SafeMarker x={220} y={150} label="Vivekananda" />
+        <SafeMarker x={620} y={130} label="AIIMS" />
+        <SafeMarker x={660} y={360} label="KV No.2" />
+        <SafeMarker x={120} y={90} label="NDRF Camp" />
 
         {/* Compass */}
         <g transform="translate(740, 380)" opacity="0.7">
