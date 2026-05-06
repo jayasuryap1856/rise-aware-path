@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Safe Harbor Alerts" },
+      { name: "description", content: "Safe Harbor Alerts provides early flood warnings, safe zones, and evacuation routes for India." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Safe Harbor Alerts" },
+      { property: "og:description", content: "Safe Harbor Alerts provides early flood warnings, safe zones, and evacuation routes for India." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Safe Harbor Alerts" },
+      { name: "twitter:description", content: "Safe Harbor Alerts provides early flood warnings, safe zones, and evacuation routes for India." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7f36a6dc-5a64-4ca2-9aaf-e42e97b81009/id-preview-06871487--d309f717-531b-4e09-8ef2-0dae4e5eca4d.lovable.app-1778068698994.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7f36a6dc-5a64-4ca2-9aaf-e42e97b81009/id-preview-06871487--d309f717-531b-4e09-8ef2-0dae4e5eca4d.lovable.app-1778068698994.png" },
     ],
     links: [
       {
