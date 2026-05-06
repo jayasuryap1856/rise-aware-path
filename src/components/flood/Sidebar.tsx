@@ -36,7 +36,7 @@ export function Sidebar() {
         </div>
         <div>
           <div className="font-display text-base font-bold leading-none">TIDEWATCH</div>
-          <div className="text-[10px] text-muted-foreground tracking-widest mt-0.5">EARLY WARNING SYSTEM</div>
+          <div className="text-[10px] text-muted-foreground tracking-widest mt-0.5">INDIA · EARLY WARNING</div>
         </div>
       </div>
 

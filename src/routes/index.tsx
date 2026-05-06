@@ -15,14 +15,14 @@ import { ArrowUpRight, Layers, Phone, ShieldCheck, Siren, Users, Waves } from "l
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "TideWatch — Real-time Flood Early Warning System" },
+      { title: "TideWatch India — Real-time Flood Early Warning System" },
       {
         name: "description",
         content:
-          "Live flood alerts, water-level sensor data, evacuation routes, and safe zones — built to help communities respond faster.",
+          "Live IMD-aligned flood alerts, water-level sensor data, evacuation routes, and safe zones across India — built to help communities respond faster.",
       },
-      { property: "og:title", content: "TideWatch — Flood Early Warning" },
-      { property: "og:description", content: "Real-time flood monitoring, alerts, evacuation routes and safe zones." },
+      { property: "og:title", content: "TideWatch India — Flood Early Warning" },
+      { property: "og:description", content: "Real-time monsoon flood monitoring, alerts, evacuation routes and safe zones across India." },
     ],
   }),
   component: Index,
@@ -170,15 +170,15 @@ function Index() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase tracking-widest text-muted-foreground">In an emergency</div>
-                  <h3 className="font-display text-xl font-bold">Call 911 immediately if life is in danger</h3>
+                  <h3 className="font-display text-xl font-bold">Dial 112 immediately if life is in danger</h3>
                   <p className="text-sm text-muted-foreground mt-0.5">
-                    For non-life-threatening flood reports, contact Cedar Valley Emergency Mgmt at (555) 010-0911.
+                    NDRF Control Room: 011-26701728 · BMC Disaster Helpline: 1916 · IMD Flood Helpline: 1078
                   </p>
                 </div>
               </div>
               <div className="flex gap-2">
                 <button className="rounded-lg bg-danger px-5 py-2.5 text-sm font-semibold text-white hover:bg-danger/90">
-                  Call 911
+                  Call 112
                 </button>
                 <button className="rounded-lg bg-secondary/60 px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
                   Report flooding
@@ -188,7 +188,7 @@ function Index() {
           </section>
 
           <footer className="pt-4 pb-2 text-center text-xs text-muted-foreground">
-            TideWatch · Built on open weather + hydrology data · This is a demonstration interface
+            TideWatch India · Built on IMD, CWC & NDMA open data · Demonstration interface
           </footer>
         </main>
       </div>

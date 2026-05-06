@@ -25,7 +25,7 @@ export function Topbar() {
 
       <button className="hidden sm:flex items-center gap-1.5 rounded-lg glass px-3 py-1.5 text-xs hover:border-foam/40 transition">
         <Locate className="h-3.5 w-3.5 text-foam" />
-        Cedar Valley
+        Mumbai · IN
       </button>
 
       <button className="rounded-lg glass p-2 hover:border-foam/40 transition">

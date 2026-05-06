@@ -1,14 +1,15 @@
 import { Radio } from "lucide-react";
 
 const updates = [
-  "Cedar River +8cm in last 15min",
-  "NWS issued Flash Flood Warning · valid until 11:30 PM",
-  "Mill St bridge closed to all traffic",
-  "Highland Center now open · 322 spaces available",
-  "Storm cell tracking ENE at 28 kph",
-  "12,482 push notifications delivered",
-  "Volunteer drivers requested at Riverside",
-  "Power restored to Sector 4 substation",
+  "Hooghly +8cm in last 15min at Howrah Bridge",
+  "IMD issued Red Alert for Mumbai · valid until 23:30 IST",
+  "LBS Marg underpass closed to all traffic",
+  "Vivekananda School shelter open · 322 spaces available",
+  "Monsoon cell tracking NE at 28 kph over Konkan",
+  "12,482 push notifications delivered via NDMA Sachet",
+  "NDRF Team-4 deployed to Kurla West",
+  "Power restored to Dadar substation",
+  "BMC helpline 1916 · NDRF 011-26701728",
 ];
 
 export function Ticker() {
