@@ -263,7 +263,7 @@ export const riskLabel: Record<RiskLevel, string> = {
 };
 
 export const riskColor: Record<RiskLevel, string> = {
-  safe: "text-[oklch(0.72_0.16_155)]",
+  safe: "text-safe",
   watch: "text-foam",
   warn: "text-warn",
   danger: "text-danger",
